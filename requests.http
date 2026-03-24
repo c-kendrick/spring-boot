@@ -1,0 +1,29 @@
+### GET request to example server
+GET http://localhost:8080
+
+###
+GET http://localhost:8080/api/v1/software-engineers
+
+###
+GET http://localhost:8080/api/v1/software-engineers/3
+
+###
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+"name": "Alexander",
+"techStack": "Python, PyTorch, Vibe Coding"
+}
+
+###
+
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "John",
+  "techStack": "Java, SpringBoot, Docker"
+}
+
+###
